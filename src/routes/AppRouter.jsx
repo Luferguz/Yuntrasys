@@ -27,7 +27,7 @@ export const AppRouter = () => {
         <Route path="editProfile" element={<EditProfile/>} />
         <Route path="laboratorio" element={<Laboratorio/>} />
         <Route path="ensamble" element={<Ensamble/>} />
-        <Route path='/*' element={ <Navigate to="/"/>} />
+        <Route path='/*' element={ <Navigate to="/home"/>} />
 
     </Routes>
   )

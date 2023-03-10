@@ -2,21 +2,23 @@ import { createTheme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 
 
-export const theme = createTheme ({
+const theme = createTheme ({
     palette: {
       primary:{
         main: '#e2edF3'
-      }
+      },
+      secundary: {  }
+      
     }
   });
   
   
-export const useStyles = makeStyles (theme => ({
+const useStyles = makeStyles (theme => ({
     main: {
       backgroundColor: '#e2edF3',
     },
     card:{
       backgroundColor:'#fff',
   
-    }
+    },
   }));
